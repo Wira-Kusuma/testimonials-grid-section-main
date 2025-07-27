@@ -59,6 +59,7 @@ p {
     background-color: var(--Purple-500);
     max-width: 41rem;
     position: relative;
+    grid-area: card1;
 }
 
 .card:nth-child(1)>img {
@@ -70,19 +71,23 @@ p {
 .card:nth-child(2) {
     background-color: var(--Grey-500);
     max-width: 20rem;
+    grid-area: card2;
 }
 .card:nth-child(3) {
     background-color: var(--White);
     gap: 2rem;
     max-width: 20rem;
+    grid-area: card3;
 }
 .card:nth-child(4) {
     background-color: var(--White);
     max-width: 20rem;
+    grid-area: card4;
 }
 .card:nth-child(5) {
     background-color: var(--Dark-blue);
     max-width: 41rem;
+    grid-area: card5;
 }
 
 .card {

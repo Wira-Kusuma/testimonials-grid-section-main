@@ -141,7 +141,6 @@ p {
 
 @media screen and (max-width:43rem) {
     main {
-        all: unset;
         display: grid;
         width: 100%;
         grid-template-columns: 1fr;

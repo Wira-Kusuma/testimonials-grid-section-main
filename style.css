@@ -116,3 +116,41 @@ p {
 .card:nth-child(3) .name p:last-child, .card:nth-child(4) .name p:last-child{
     color: var(--Grey-200);
 }
+
+@media screen and (max-width:700px) {
+    main {
+        all: unset;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5,auto);
+        grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        ;
+        gap: 1rem;
+        height: auto;
+        place-items: center;
+    }
+    body {
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .card {
+        width: 90%;
+        padding: 2rem;
+    }
+
+    .card > h2 {
+        font-size: 1.6rem;
+    }
+
+    .card>p {
+        font-size: 1rem;
+    }
+}
+    

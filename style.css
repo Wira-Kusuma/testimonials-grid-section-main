@@ -98,7 +98,6 @@ p {
     color: var(--White);
     padding: 1.5rem;
     box-shadow: 10px 10px 20px 0.1px rgba(0, 0, 0, 0.123);
-    margin: 0 !important;
 }
 
 .user {
@@ -140,7 +139,7 @@ p {
     color: var(--Grey-200);
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:43rem) {
     main {
         all: unset;
         display: grid;

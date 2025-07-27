@@ -45,13 +45,14 @@ main {
 }
 
 h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: var(--Grey-100);
+    position: relative;
 }
 
 p {
-    font-size: 0.9rem;
     color: var(--Grey-200);
+    position: relative;
 }
 
 .card:nth-child(1) {
@@ -63,7 +64,6 @@ p {
 .card:nth-child(1)>img {
     width: 100px;
     position: absolute;
-    opacity: 0.5;
     right: 50px;
 }
 

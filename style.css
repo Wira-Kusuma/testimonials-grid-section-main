@@ -98,7 +98,7 @@ p {
     gap: 1rem;
     color: var(--White);
     padding: 1.5rem;
-    box-shadow: 20px 20px 10px 0.1px rgba(0, 0, 0, 0.123);
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 .user {
